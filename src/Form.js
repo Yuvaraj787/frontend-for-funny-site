@@ -5,7 +5,7 @@ function Form() {
      <div className="title">
         <h1>Upload a mokkai</h1>
      </div>
-         <form action="http://localhost:5000/post" method="post">
+         <form action="https://backend-for-funnysite.herokuapp.com/post" method="post">
          <h3>Your name:</h3>
                <input className="input" type='text' placeHolder="Your name" name="name" /><br />
          <h3>Your valuable mokkai:</h3>
