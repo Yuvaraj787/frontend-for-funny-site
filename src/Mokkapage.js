@@ -3,7 +3,7 @@ import Card from './card';
 import {useState,useEffect} from 'react';
 function Mokkapage() {
 	const [mokkais,setquestions] = useState([]);
-  fetch("http://localhost:5000/get").then(
+  fetch("https://backend-for-funnysite.herokuapp.com/get").then(
     x => x.json()
   ).then((y) => {
     setquestions(y);
