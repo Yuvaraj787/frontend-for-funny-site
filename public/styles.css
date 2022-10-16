@@ -1,0 +1,130 @@
+.title {
+	width: 100%;
+	background-color: darkgrey;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+body {
+	margin: 0px;
+	background-color: #CDFCF6;
+	text-align: center;
+}
+.main {
+	display: flex;
+}
+.left {
+	border:2px solid black ;
+	flex: 1;
+	padding: 60px;
+	font-family: 'Gochi Hand', cursive;
+}
+.right {
+    border:2px solid black ;
+    flex:  1;
+    padding: 60px;
+    font-family: 'Gochi Hand', cursive;
+}
+h1,h2 {
+	display: inline-block;
+}
+.title > h1 {
+   color: whitesmoke;
+   margin: 0;
+   font-family: 'Slackey', cursive;
+}
+.note {
+	margin-top: 4%;
+	width: 30%;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 10px 15px;
+	display: inline-block;
+}
+.warn {
+	color: red;
+}
+div > h1 > a {
+	text-decoration: none;
+	background-color: darkgreen;
+	border: 1px solid green;
+	color: whitesmoke;
+	border-radius: 7px 6px;
+	padding: 5px;
+	font-size: 16px;
+}
+div > h1 > a:hover {
+	background-color: seagreen;
+}
+div > a {
+	color: black;
+}
+.rig:hover {
+	color: darkgreen;
+}
+.card {
+	border: 1px solid black;
+	border-radius: 3px 6px;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 6px;
+   background-color: skyblue;
+}
+.form {
+	text-align: center;
+}
+.card > div > h3 {
+	display: inline-block;
+}
+.addbtn {
+	color:  whitesmoke;
+	background-color: seagreen;
+	padding: 2px;
+	border-radius: 2px 4px;
+	margin-top: 5px;
+	font-size: 17px;
+}
+.addbtn:hover {
+     background-color: darkgreen;
+}
+.card > div  > h4 {
+	border: 1px solid;
+	display: inline-block;
+	border-radius: 10px 12px;
+	margin: 4px;
+	padding-right: 7px;
+	padding-left: 8px;
+}
+.card > div > h4 > span {
+   color: brown;
+   display: inline-block;
+}
+.mpage {
+	text-align: center;
+}
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .main {
+  	display: inline-block;
+  }
+  div {
+  	display: inline-block;
+  }
+  .title {
+	width: 100%;
+	padding: 0;
+	background-color: darkgrey;
+	text-align: center;
+  }
+  
+.note {
+	margin-top: 4%;
+	margin-left:10% ;
+	margin-right:20% ;
+	width: 70%;
+	padding: 10px;
+	border: 2px solid grey;
+	border-radius: 5px 10px;
+  }
+  .card {
+  	width: 92%;
+  }
+}

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from "./Navbar";
+import Note from "./Note";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar />
+    <div className="main">
+      <div className="left"><h1>mokka poda poRingala<br /> <a href="/create">Click here</a></h1></div>
+      <div className="right"><a href="/show"><h1 className="rig">Mokka paka poRingala (click here to see Shashiyin marana mokkaigal)</h1></a></div>
+    </div>
+    <Note />
     </div>
   );
 }
