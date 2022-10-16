@@ -11,8 +11,8 @@ function Mokkapage() {
 	return (
      <div className="mpage">
      <div className="title"><h1>Prabala Mokkaigal</h1></div>
-     <br />
-          {mokkais.map(mokkai=>{
+     <br />{(mokkais.length == 0)?<h1>Loading...</h1>:
+          mokkais.map(mokkai=>{
           	return <Card title={mokkai.name} content={mokkai.mokkka} />
           })}
      </div>
