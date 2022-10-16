@@ -7,7 +7,7 @@ function Card(props) {
             <h3>{props.content}</h3>
          </div>
          <div>
-             <h4>Evlo kevalamana mokkaiya pottavaritin peryar : <span>{props.title}</span></h4>
+             <h4>Evlo kevalamana mokkaiya pottavarin peyar : <span>{props.title}</span></h4>
          </div>
      </div>
 	)
