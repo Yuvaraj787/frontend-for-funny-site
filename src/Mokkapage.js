@@ -6,7 +6,7 @@ function Mokkapage() {
   fetch("https://backend-for-funnysite.herokuapp.com/get").then(
     x => x.json()
   ).then((y) => {
-    setquestions(y);
+    setquestions(y.reverse());
   })
 	return (
      <div className="mpage">
