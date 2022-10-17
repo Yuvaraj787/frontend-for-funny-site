@@ -82,7 +82,7 @@ div > a {
 .card > div > h3 {
 	display: inline-block;
 }
-.addbtn {
+.addbtn, .backbtn {
 	color:  whitesmoke;
 	background-color: seagreen;
 	padding: 2px;
