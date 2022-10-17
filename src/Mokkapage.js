@@ -11,6 +11,7 @@ function Mokkapage() {
 	return (
      <div className="mpage">
      <div className="title"><h1>Prabala Mokkaigal</h1></div>
+     <br />
       <a className="addbtn" href="/">Back to homepage</a>
      <br />{(mokkais.length == 0)?<h1>Loading...</h1>:
           mokkais.map(mokkai=>{
