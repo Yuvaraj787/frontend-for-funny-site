@@ -4,6 +4,13 @@
 	text-align: center;
 	padding: 10px 0px 10px 0px;
 }
+
+.backbtn {
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 body {
 	margin: 0px;
 	background-color: #CDFCF6;
